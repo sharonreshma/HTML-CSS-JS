@@ -1,0 +1,22 @@
+<html> 
+<body> 
+<script> 
+let x="10.123";
+document.write(typeof(x));
+y1=parseInt(x);
+document.write(y1);
+document.write(typeof(y1));
+let z="10 20 30";
+document.write(typeof(z));
+let s="hello";
+y2=parseInt(s);
+document.write(y2);
+let v="10.123";
+y3=parseFloat(v);
+document.write(y3);
+let q="20 34.5";
+y4=parseFloat(q);
+document.write(y4);
+</script> 
+</body> 
+</html> 

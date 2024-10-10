@@ -1,0 +1,37 @@
+<html>
+<body>
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+<li>Aerated Drinks</li>
+</ul>
+
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+<li>Aerated Drinks</li>
+</ol>
+
+<dl>
+<dt><b><u>Coffee</u></b></dt>
+<dd><i><li>Black Coffee</li></i></dd>
+<dd><i><li>Cold Coffee</li></i></dd>
+<dd><i><li>Esspresso</i></li></dd>
+<dd><i><li> Frappachino</li></i></dd>
+<dt><b><u>Tea</u></b></dt>
+<dd><i><li>Iced Tea</li></i></dd>
+<dd><i><li>Green Tea</li></i></dd>
+<dd><i><li>Lime Tea</li></i></dd>
+<dt><b><u>Milk</u></b></dt>
+<dd><i><li>milk shakes</li></i></dd>
+<dt><b><u>Aerated Drinks</u></b></dt>
+<dd><i><li>Coke</li></i></dd>
+<dd><i><li>Sprite</li></i></dd>
+<dd><i><li>Miranda</li></i></dd>
+<dd><i><li>Pepsi</li></i></dd>
+</dl>
+</body>
+</html>
+

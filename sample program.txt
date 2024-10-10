@@ -1,0 +1,11 @@
+<html>
+welcome to Sri Krishna College of Technology
+<br>IT student
+<br><h1>Sharon Reshma</h1>
+<br><h2>Sharon Reshma</h2>
+<br><h3>Sharon Reshma</h3>
+<br><h4>Sharon Reshma</h4>
+<br><h5>Sharon Reshma</h5>
+<br><h6>Sharon Reshma</h6>
+<p> welcome to industrial course,where we learn three subjects for the first semester.it consist of programming languages,project based concepts and so on about which concepts will be given and we execute it practically</p>
+</html>

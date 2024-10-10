@@ -1,0 +1,23 @@
+
+<html>
+<body>
+<h1>heloo guys</h1>
+<p id="name"><p>
+<script>
+let vishmaya=200,reshmi=200, sharon;
+sharon=vishmaya+reshmi;
+var a=20,b=50,c;
+c=a-b;
+const d=10,e=100;
+var f=e/d;
+document.getElementById("name").innerHTML= sharon;
+document.write(c);
+x=12,y=10;
+z=x*y;
+alert(f);
+//alert("warning");
+console.log(z);
+</script>
+<h2>Thank you</h2>
+</body>
+</html>

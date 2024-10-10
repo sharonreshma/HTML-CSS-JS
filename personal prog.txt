@@ -1,0 +1,191 @@
+
+
+
+
+<html>
+<style>
+div.scrollmenu {
+  background-color: #333;
+overflow: auto;
+height:50px;
+  white-space: nowrp;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+div.scrollmenu [type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+ 
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+height:100px;
+    display: block;
+  }
+{box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+<body background="https://img.freepik.com/free-photo/pastel-pink-oil-paint-textured-background_53876-108408.jpg?w=2000"style=background-repeat:no-repeat;background-size:cover;>
+<div class="scrollmenu">
+
+  <a href="file:///D:/INDUSTRIAL%20COURSE/review%201.html">Home</a>
+  <a href="file:///D:/INDUSTRIAL%20COURSE/genres.html">Blogs</a>
+  <a href="profile.html">My Profile</a>
+  <a href="file:///D:/INDUSTRIAL%20COURSE/about.html">About</a>
+<input type="text" placeholder="Search.."></div>
+<br>
+<iframe src="blog.html"title="time table" width="400" height="850">
+</iframe>
+<div style = "position:relative;centre:100px; left:530px;bottom:870;">
+
+<h1>PERSONAL BLOGS</h1>
+<h1><b><u>JUNGLE CRUISE</u></b><h2>by:Matt Jeffrey</h2></h1>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/desktop-AdobeStock_196903332?$pjpeg$&jpegSize=200&wid=690"width:40%">
+    <div class="text">nature love</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://www.blog.motifphotos.com/wp-content/uploads/2020/06/iStock-1136417714-1200x800.jpg" style="width:40%">
+    <div class="text">nature love</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://expertphotography.b-cdn.net/wp-content/uploads/2018/07/nature-photography.jpg"width:40%">
+    <div class="text">nature love</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+<ul>
+<li>Hi guys yes it is me Matt!</li>
+<li>photography is the best one of my personal favourite hobby!!</li>
+<li>it really helps to put your mind at ease.</li>
+</ol>
+<p>I have uploaded my lates collection of nature.</p>
+<p>Nature and photography go well with each other!!!</p>
+<p>I insist that all of you should give it a try!</p>
+</div>
+</body>
+</html>

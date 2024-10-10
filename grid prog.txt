@@ -1,0 +1,34 @@
+
+<html>
+<head>
+<style>
+div.grid-container{
+display:grid;
+grid-template-columns: auto auto auto;
+background-color: pink;
+padding: 10px;
+}
+div.grid-item{
+background-color: #D2B4DE ;
+border: 5px dotted pink;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>Grid Layout</h1>
+<div class="grid-container">
+<div class="grid-item">one direction</div>
+<div class="grid-item">Harry Styles</div>
+<div class="grid-item">Zayn Malik</div>
+<div class="grid-item">Louis Tomlinson</div>
+<div class="grid-item">Niall Horran</div>
+<div class="grid-item">Liam Payne</div>
+<div class="grid-item">Taylor Swift</div>
+<div class="grid-item">Shawn Mendos</div>
+<div class="grid-item">Selena Gomez</div>
+</div>
+</body>
+</html

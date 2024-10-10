@@ -1,0 +1,19 @@
+<html>
+<style>
+h1{text-color:color type:#7DBEA7}
+h2{text-align:center}
+h3{text decoration:u}
+h4{text-transform:type;}
+h5{text-indent:5;}
+h6{text-shawdow:3px 1px blue;}
+</style>
+<body>
+<h1>hi</h1>
+<h2>hi</h2>
+<h3>hi</h3>
+<h4>hi</h4>
+<h5>hi</h5>
+<h6>hi</h6>
+</body>
+</html>
+

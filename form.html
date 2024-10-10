@@ -1,0 +1,58 @@
+<html>
+<head>
+<h1 style="color:black"><u>Registration Form</u></h1>
+</head>
+<body style="background-color:pink;text-align:center;>
+<form>
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname" value="sharon"autofocus><br>
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname" value="reshma"><br>
+<label for="mail">Email:</label><br>
+<input type="text" id="mail" name="mail" placeholder="xyz@gmail.com"><br>
+<form_action="/action_page.php">
+<label for="datemax">D.O.B:</label><br>
+<input type="date" id="datemax" name="datemax" value="mm-dd-yyyy" max="1990-12-31" min="2026-12-31"><br>
+<label for="password">Password:</label><br>
+<input type="text" id="password" name="password" placeholder="******" pattern"[0-9]{3}-[0-9]{3}><br>
+<label for="gender">Gender:</label>
+<label for="gender">Male</label>
+<input type="radio" id="gender" name="Male" value="Male">
+<label for="gender">Female</label>
+<input type="radio" id="gender" name="Female" value="Female"><br>
+<label for="phone number">Phone Number:</label><br>
+<input type="number" id="phone number" name="phone number" placeholder="1234-567-891" pattern"[0-9]{4}-[0-9]{3}-[0-9]{3}><br>
+<label for="rollno">Roll No:</label><br>
+<input type="number" id="roll no" name="roll no" value="1"><br>
+<label for="batch">Department:</label><br>
+<input type="text" id="batch" name="batch" value="B.Tech IT"readonly><br>
+<label for="address">Address:</label><br>
+<textarea rows="10" cols="5" name="description">
+</textarea><br>
+<label for="sec">Section:</label>
+<label for="sec">A</label>
+<input type="radio" id="sec" name="sec" value="A">
+<label for="gender">B</label>
+<input type="radio" id="sec" name="sec" value="B">
+<label for="gender">C</label>
+<input type="radio" id="sec" name="sec" value="C"><br>
+<label for="event">Year:</label><br>
+<input list="year"><br>
+<datalist id="year"><br>
+<option value="1st"><br>
+<option value="2nd"><br>
+<option value="3rd"><br>
+</datalist>
+<label for="event">Events:</label><br>
+<label for="event">Poster Making</label>
+<input type="checkbox" id="event" name="event" value="Poster Making"><br>
+<label for="event">Paper Presentation</label>
+<input type="checkbox" id="event" name="event" value="Paper Presentation"><br>
+<label for="event">Quiz</label>
+<input type="checkbox" id="event" name="event" value="Quiz"><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
+
+

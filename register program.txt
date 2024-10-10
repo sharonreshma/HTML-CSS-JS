@@ -1,0 +1,28 @@
+<html>
+<head style="color:violet"><b>REGISTERATION FORM<b></head>
+<body>
+<form>
+<table>
+<tr>
+<td>First Name:</td>
+<td><input type="text" placeholder="text" name=""></td>
+</tr>
+<tr>
+<td>Second Name:</td>
+<td><input type="text" placeholder="text" name=""></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="mail" placeholder="xyz@gmail.com" name=""></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type=”Password” placeholder=”Password” name=””></td>
+</tr>
+<tr>
+</table>
+</form> 
+</body>
+</html>
+
+
